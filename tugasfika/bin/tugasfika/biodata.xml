@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logfika xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="biodata.xsd">
+<mahasiswa>
+	<npm kode="00001">11540</npm>
+	<nama>Rafika</nama>
+	<kelas>2A</kelas>
+	<jurusan>Teknik Informatika</jurusan>
+	<biayasemester>7000000</biayasemester>
+	<kodekelas>1</kodekelas>
+	<asaldaerah>Lumajang</asaldaerah>
+</mahasiswa>
+<mahasiswa>
+	<npm>115401</npm>
+	<nama>Kezia</nama>
+	<kelas>2B</kelas>
+	<jurusan>Teknik Informatika</jurusan>
+	<biayasemester>7000000</biayasemester>
+	<kodekelas>2</kodekelas>
+	<asaldaerah>NTT</asaldaerah>
+</mahasiswa>
+<mahasiswa>
+	<npm>115402</npm>
+	<nama>Maudy</nama>
+	<kelas>2A</kelas>
+	<jurusan>Tekik Informatika</jurusan>
+	<biayasemester>7000000</biayasemester>
+	<kodekelas>1</kodekelas>
+	<asaldaerah>Jambi</asaldaerah>
+</mahasiswa>
+<mahasiswa>
+	<npm>115403</npm>
+	<nama>Ajrina</nama>
+	<kelas>2B</kelas>
+	<jurusan>Teknik Informatika</jurusan>
+	<biayasemester>7000000</biayasemester>
+	<kodekelas>2</kodekelas>
+	<asaldaerah>Makassar</asaldaerah>
+</mahasiswa>
+<mahasiswa>
+	<npm>115404</npm>
+	<nama>Ratu</nama>
+	<kelas>2A</kelas>
+	<jurusan>Teknik Informatika</jurusan>
+	<biayasemester>7000000</biayasemester>
+	<kodekelas>1</kodekelas>
+	<asaldaerah>Bulukumba</asaldaerah>
+</mahasiswa>
+<mahasiswa>
+	<npm>115405</npm>
+	<nama>Dhea</nama>
+	<kelas>2B</kelas>
+	<jurusan>Teknik Informatika</jurusan>
+	<biayasemester>7000000</biayasemester>
+	<kodekelas>2</kodekelas>
+	<asaldaerah>Sumedang</asaldaerah>
+</mahasiswa>
+</logfika>

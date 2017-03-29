@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="logfika">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="mahasiswa"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="mahasiswa">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="npm"/>
+                <xs:element ref="nama"/>
+                <xs:element ref="kelas"/>
+                <xs:element ref="jurusan"/>
+                <xs:element ref="biayasemester"/>
+                <xs:element ref="kodekelas"/>
+                <xs:element ref="asaldaerah"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="npm">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:integer">
+                    <xs:attribute name="kode" type="xs:integer"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="nama" type="xs:NCName"/>
+    <xs:element name="kelas" type="xs:NMTOKEN"/>
+    <xs:element name="jurusan" type="xs:string"/>
+    <xs:element name="biayasemester">
+    	<xs:simpleType>
+    		<xs:restriction base="xs:integer">
+
+    			<xs:minInclusive value="7000000"></xs:minInclusive>
+    		</xs:restriction>
+    	</xs:simpleType>
+    </xs:element>
+    <xs:element name="kodekelas">
+    	<xs:simpleType>
+    		<xs:restriction base="xs:integer">
+
+    			<xs:minInclusive value="1"></xs:minInclusive>
+    		</xs:restriction>
+    	</xs:simpleType>
+    </xs:element>
+    <xs:element name="asaldaerah" type="xs:NCName"/>
+</xs:schema>
